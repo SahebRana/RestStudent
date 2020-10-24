@@ -22,17 +22,13 @@ import com.rana.list.StudentList;
 
 @RestController
 public class StudentContoller {
-	@GetMapping()
-	public String test() {
-		return "<h1>Simple Spring Boot CRUD project</h1>";
-	}
-	
 	@Autowired
 	StudentList stlist;
 	
 	@CrossOrigin(origins = "*")
 	@GetMapping("/student/")
 	List<Student> getAllStudent(){
+            System.err.println("Hello world!");
 		return stlist.getAllStudent();
 	}
 	@CrossOrigin(origins = "*")
