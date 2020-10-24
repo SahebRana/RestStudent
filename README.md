@@ -1,4 +1,4 @@
-Here will be there projects
+Here will be three projects:
   1. REST application (On static directory REST services will be called)
   2. Desktop Client (It will call REST services)
   3. Web Client (It will call REST services)
